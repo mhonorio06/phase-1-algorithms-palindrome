@@ -1,10 +1,15 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  return word === word.split("").reverse("").join("")
+
 }
 
 /* 
   Add your pseudocode here
-*/
+  if the word is the same exact word as in reverse it will return true.
+  if the word is different it will return false.
+*/ 
+
 
 /*
   Add written explanation of your solution here
